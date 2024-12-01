@@ -1,0 +1,29 @@
+body {
+    font-family: 'Times New Roman', Times, serif, sans-serif;
+    text-align: center;
+    background-color: #f4f4f9;
+    color: #333;
+  }
+  
+  
+  .actions {
+    margin: 20px 0;
+  }
+  
+  button {
+    margin: 5px;
+    padding: 10px 20px;
+    background-color: #ddcc4a;
+    color: white;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #cdc454;
+  }
+  
+  #message {
+    margin-top: 20px;
+    font-size: 1.2em;
+  }
+  

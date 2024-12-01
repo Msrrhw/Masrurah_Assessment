@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Bank Account System</title>
+  <link rel="stylesheet" href="/static/styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Welcome to Takaful Brunei, {{ account_holder }}</h1>
+    <p id="balance">Current Balance: $0.00</p>
+
+    <div class="actions">
+      <h2>Transactions</h2>
+      <input type="number" id="amount" placeholder="Enter amount">
+      <button onclick="deposit()">Deposit</button>
+      <button onclick="withdraw()">Withdraw</button>
+    </div>
+
+    <div id="message"></div>
+  </div>
+  <script src="/static/script.js"></script>
+</body>
+</html>
